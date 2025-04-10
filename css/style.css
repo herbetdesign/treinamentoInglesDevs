@@ -1,0 +1,148 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estrutura Flexbox para rodapé fixo [[5]] */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    padding: 0 20px; /* Padding lateral para mobile */
+}
+
+/* Container principal */
+.container {
+    flex: 1; /* Ocupa espaço restante [[5]] */
+    max-width: 800px;
+    margin: 40px auto 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho com Banner Responsivo */
+.ads-banner-header {
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ads-banner iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 728px;
+}
+
+.ads-banner {
+    margin: 20px auto;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Rodapé Fixo */
+.footer-ads {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: #f8f9fa;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    z-index: 1000; /* Garante sobreposição [[5]] */
+}
+
+/* Classe para esconder elementos */
+.hidden {
+    display: none;
+}
+
+/* Estilo dos botões */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 10px 0;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button.correct {
+    background: #4CAF50;
+    color: white;
+}
+
+button.incorrect {
+    background: #f44336;
+    color: white;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Seletor de Precisão */
+#accuracy-select {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background: #f0f0f0;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'><path d='M7 10l5 5 5-5H7z'/></svg>");
+    background-position: right 12px center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    padding-right: 36px;
+}
+
+#accuracy-select:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+#accuracy-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #2196F3;
+}
+
+#accuracy-select option {
+    background: white;
+    padding: 12px;
+    transition: background 0.3s;
+}
+
+#accuracy-select option:hover {
+    background: #f0f0f0;
+}
+
+/* Animação de Fade In */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
