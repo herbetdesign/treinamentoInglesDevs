@@ -4,6 +4,8 @@ Aviso: O aluno terá que ter algum microfone funcionando no computador OU no mic
 
 ![Treinamento de inglês para programadores](https://github.com/herbetdesign/treinamentoInglesDevs/blob/main/site3.jpg)
 
+Vide site: (https://inglesparaprogramadores.ct.ws/)
+
 Basicamente o que você faz é: Escolha a pronúncia desejada, que é "Pronúncia em 50% - Iniciantes" que é para quem é iniciante e está começando a aprender a pronunciar o inglês, tem a "Pronúncia em 75% - Intermediário" que são para aqueles que já tem uma certa familiaridade com o inglês e tem o "Pronúncia em 100% - Fluente" que é para aqueles que quem uma certa fluência ao dizer palavras em inglês.
 
 Observação: Caso não diga conseguir a pronúncia correta, ele não passará para a próxima frase. Ele repetirá até você acertar a pronúncia da frase corretamente.
